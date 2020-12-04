@@ -149,6 +149,9 @@ header .img_road{
     justify-content: center;
 }
 
+.middle-content .boxes .box #1{
+    background-color: teal;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
