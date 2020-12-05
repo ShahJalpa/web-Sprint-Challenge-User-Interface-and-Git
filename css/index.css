@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
     /*border: 1px solid red;*/
-    /*border:0;*/
+    border:0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -258,6 +258,7 @@ footer nav a {
     justify-content: space-evenly;
 }
 .about-page .image-gallery .image{
+    padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
