@@ -222,23 +222,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
 /*--------------------CSS for about page----------------------*/
-
-.about-page .about_para{
-    padding-bottom: 10px;
+/*.about-page {
     border-bottom: 1px dashed black;
+    margin: 2% 2%
 }
 .about-page .about_para h2{
-    font-size: 22px;
-    padding: 0 2%;
+    font-size: 22px;  
 }
 .about-page .about_para p{
-    padding: 0 2%;
+    padding-bottom: 2%;
 }
-
 .about-page .about_img{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+}*/
+
+.about-page{
+    width: 800px;
+    margin: 0 auto;
 }
+.about-page .about-para{
+    margin: 2% 2%;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed black;
+}
+.about-page .about-para h2{
+    font-size: 20px;
+}
+.container .last-section{
+    margin: 4% 2%;
+}
+.container .last-section h2{
+    font-size: 20px;
+}
+
+
