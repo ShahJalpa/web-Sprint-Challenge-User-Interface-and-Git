@@ -18,7 +18,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+    /*border: 1px solid red;*/
+    border:0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,6 +29,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/*{
+    margin:0;
+    padding:0;
+    border:1px solid red;
+    box-sizing: border-box;
+    max-width:100%;
+}*/
+
+
 body {
 	line-height: 1;
 }
@@ -64,6 +75,34 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+header{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header .logo_img{
+display: flex;
+justify-content: space-evenly;
+margin: 1% 0;
+padding: 1% 0;
+}
+header .logo_img .logo{
+    width:20%;
+}
+header .logo_img nav{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end; 
+}
+header .logo_img nav a{
+    text-decoration: none;
+    color: black;
+}
+header .img_road{
+    padding: 1.5% 0;
 }
 
 .container {
@@ -112,6 +151,45 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes #box1{
+    background-color: teal;
+}
+
+.middle-content .boxes #box2{
+    background-color: gold;
+}
+
+.middle-content .boxes #box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes #box4{
+    background-color: coral;
+}
+
+.middle-content .boxes #box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes #box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes #box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes #box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes #box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes #box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +222,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*--------------------CSS for about page----------------------*/
+/*.about-page {
+    border-bottom: 1px dashed black;
+    margin: 2% 2%
+}
+.about-page .about_para h2{
+    font-size: 22px;  
+}
+.about-page .about_para p{
+    padding-bottom: 2%;
+}
+.about-page .about_img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}*/
+
+.about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+.about-page .about-para{
+    margin: 2% 2%;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed black;
+}
+.about-page .about-para h2{
+    font-size: 20px;
+}
+.about-page .image-gallery{
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-page .image-gallery .image{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-page .image-gallery .image p{
+    padding-bottom: 25px;
+}
+.about-page .image-gallery .image a{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 3%;
+    
+}
+.container .last-section{
+    margin: 4% 2%;
+}
+.container .last-section h2{
+    font-size: 20px;
+}
+
+
