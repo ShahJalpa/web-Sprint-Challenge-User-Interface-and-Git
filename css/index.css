@@ -251,6 +251,24 @@ footer nav a {
 .about-page .about-para h2{
     font-size: 20px;
 }
+.about-page .image-gallery{
+    margin: 2% 2%;
+}
+.about-page .image-gallery .image{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-page .image-gallery .image p{
+    padding-bottom: 2%;
+}
+.about-page .image-gallery .image a{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 3%;
+    
+}
 .container .last-section{
     margin: 4% 2%;
 }
